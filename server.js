@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["https://inventory-frontend-iota.vercel.app/"],
+    origin: ["https://marvelous-puppy-befb49.netlify.app/"],
     credentials: true,
   })
 );
