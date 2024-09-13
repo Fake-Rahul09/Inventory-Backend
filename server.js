@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["https://marvelous-puppy-befb49.netlify.app/"],
+    origin: ["https://moonlit-truffle-f3b2a2.netlify.app"],
     credentials: true,
   })
 );
