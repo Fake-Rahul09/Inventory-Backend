@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://inventory-management-system-zqya.onrender.com"],
+    origin: ["http://localhost:3000", "https://66e441951161e2008b751793--clever-licorice-49669d.netlify.app/"],
     credentials: true,
   })
 );
