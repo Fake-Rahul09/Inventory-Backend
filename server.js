@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://marvelous-puppy-befb49.netlify.app/"],
+    origin: ["https://inventory-frontend-iota.vercel.app/"],
     credentials: true,
   })
 );
