@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://66e441951161e2008b751793--clever-licorice-49669d.netlify.app/"],
+    origin: ["http://localhost:3000", "https://moonlit-truffle-f3b2a2.netlify.app/"],
     credentials: true,
   })
 );
